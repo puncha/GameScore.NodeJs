@@ -1,6 +1,6 @@
-_ = require("./cloud/vendor/lodash")
-require("./cloud/app")
+_ = require("cloud/vendor/lodash")
+require("cloud/app")
 
 AV.Cloud.define("hello", (req, res)->
-  response.success(_.first(["Hello world!"]))
+  res.success(_.first(["Hello world!"]))
 )
