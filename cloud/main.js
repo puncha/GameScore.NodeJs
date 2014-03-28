@@ -3,7 +3,7 @@
 
   _ = require("cloud/lodash");
 
-  require("./cloud/app");
+  require("cloud/app");
 
   AV.Cloud.define("hello", function(req, res) {
     return response.success(_.first(["Hello world!"]));
