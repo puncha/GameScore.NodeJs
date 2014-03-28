@@ -1,7 +1,7 @@
 (function() {
   var _;
 
-  _ = require("./cloud/vendor/lodash");
+  _ = require("cloud/lodash");
 
   require("./cloud/app");
 
