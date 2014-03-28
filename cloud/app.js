@@ -1,7 +1,7 @@
 (function() {
   var app, express, _;
 
-  _ = require("cloud/vendor/lodash");
+  _ = require("cloud/vendor/lodash.coffee");
 
   express = require('express');
 
